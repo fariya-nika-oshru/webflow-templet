@@ -16,6 +16,13 @@
     border: none;
 }
 
+.primary-button:hover {
+  background-color: yellowgreen;
+  color: black;
+  cursor: grab;
+  font-size: 15px;
+}
+
 
 
 
@@ -213,6 +220,6 @@ footer a{
     text-decoration: none;
     color: #8987a1;
 }
-footer a hover{
-    color: blue;
+footer a:hover{
+    color: purple;
 }
