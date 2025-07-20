@@ -31,7 +31,7 @@ nav h2{
 banner div{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     padding: 80px;
 }
 banner div h1{
@@ -40,4 +40,92 @@ banner div h1{
 }
 banner div button{
     margin-bottom: 30px;
+}
+.action{
+    display: flex;
+    gap: 50px;
+    padding: 80px;
+}
+.action-heading{
+    font-size: 30px;
+}
+.action p{
+    color: rgba(37, 36, 50, 0.5);
+    font-size:20px;
+    padding: 20px 0;
+}
+
+.action img{
+    border-radius: 8px;
+}
+ 
+.user{
+    padding: 80px;
+    background-color: rgb(229, 231, 255) ;
+    margin: 10%;
+    border-radius: 20px;
+}
+
+.user-heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px ;
+}
+.user-amount{
+    display: flex;
+    padding: 40px;
+}
+.user h1{
+    color: #4E47FF;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user-amount p{
+    color: rgba(37, 36, 50, 0.5);
+}
+
+
+
+
+
+.icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url(Assets/icon-star.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.user-icons{
+    padding: 20px 0px;
+}
+
+.user-review{
+    padding: 0px 200px;
+}
+.review-container{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    background-color: rgb(242, 242, 248);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.box p{
+    padding: 20px 0px;
+}
+.avatar{
+    display: flex;
+    padding: 0;      
+    margin: 0;       
+    gap: 0;
+}
+.avatar img{
+    border-radius: 30px;
+}
+.avatar-name h4{
+    color: rgb(130, 130, 137) ;
+    font-weight: 200;
 }
