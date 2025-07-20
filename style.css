@@ -4,6 +4,9 @@
     max-width:100%;
     margin: auto;
 }
+
+
+/* shared part */
 .primary-button{
     background-color: #4E47FF;
     border-radius: 5px;
@@ -13,6 +16,11 @@
     border: none;
 }
 
+
+
+
+
+/* header part */
 header{
     background-image: url(Assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -23,9 +31,10 @@ nav{
     justify-content: space-between;
     padding: 40px ;
 }
-nav h2{
+nav h1{
     color: #4E47FF;
     font-weight: 900;
+    font-size: 30px;
 }
 
 banner div{
@@ -41,6 +50,9 @@ banner div h1{
 banner div button{
     margin-bottom: 30px;
 }
+
+
+/* action part */
 .action{
     display: flex;
     gap: 50px;
@@ -56,9 +68,11 @@ banner div button{
 }
 
 .action img{
-    border-radius: 8px;
+    border-radius: 20px;
 }
  
+
+/* productive user part */
 .user{
     padding: 80px;
     background-color: rgb(229, 231, 255) ;
@@ -87,7 +101,7 @@ banner div button{
 
 
 
-
+/* user review part */
 .icon {
   display: inline-block;
   width: 15px;
@@ -125,6 +139,9 @@ banner div button{
 .avatar img{
     border-radius: 30px;
 }
+.avatar-name h3{
+    color: rgb(130, 130, 137) ;
+}
 .avatar-name h4{
     color: rgb(130, 130, 137) ;
     font-weight: 200;
@@ -132,8 +149,7 @@ banner div button{
 
 
 
-
-
+/* focus part */
 .focus{
     display: flex;
     flex-direction: column;
@@ -143,14 +159,10 @@ banner div button{
 .focus img{
     border-radius: 30px;
 }
-.focus h2,
-.focus p,
-.focus button {
-  text-align: left;
-}
 
 
 
+/* contact part */
 .newsletter{
     display: flex;
     padding: 60px 200px;
@@ -178,6 +190,7 @@ label{
 }
 
 
+/* footer part */
 footer{
     color: #8987a1;
     text-align: center;
